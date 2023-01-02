@@ -1,0 +1,278 @@
+											/*========HAMBURGER MENU SECTION=========*/
+
+@media screen and (max-width:826px){
+	.menu{
+		flex-direction:column;
+		align-items:center;
+		justify-content:center;
+		width:80%;
+		height:100vh;
+		position:fixed;
+		top:0;
+		right:-100%;
+		z-index:100;
+		background: rgba(75, 75, 75, 0.3);
+    	box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    	backdrop-filter: blur(8.5px);
+    	-webkit-backdrop-filter: blur(2.5px);
+		transition:all 0.2s ease-in-out;
+	}
+	.menu{ margin-top:0px}
+	.menu li a{
+	 padding:10px;
+	}
+	.open-menu , .close-menu{
+		display:block;
+	}
+	#check:checked ~ .menu{ right:0; }
+}
+
+@media screen and (max-width:1200px) {
+	.row{
+		max-width:1140px;
+	}
+	#team{
+		height:80vh;
+	}
+	#testimonial{
+		height:40vh;
+	}
+	.grid-form-container{
+		text-align:center;
+	}
+	footer{
+		height:30vh;
+	}
+}
+
+@media screen and (max-width:1024px) {
+	.row{
+		max-width:950px;
+	}
+	#hero{
+		height:80vh;
+	}
+	.grid-team-item{
+		width:220px;
+	}
+	.grid-expert-container{
+		margin-left:-27px;
+	}
+	#team{
+		height:100vh;
+	}
+	#testimonial{
+		height:50vh;
+	}
+	footer{
+		height:45vh;
+	}
+}
+
+@media screen and (max-width:980px){
+	#hero{
+		height:60vh;
+	}
+	.hero-txt-box{
+		top:35%;
+	}
+	.vedio iframe{
+		height:50vh;
+	}
+	.grid-expert-container{
+		grid-template-columns:1fr 1fr;
+	}
+	.grid-team-container{
+		grid-template-columns:1fr 1fr;
+	}
+	#team{
+		height:110vh;
+	}
+	.grid-team-item{
+		height:250px;
+		margin: auto;
+	}
+	.grid-team-item img{
+		width:100px;
+		height:100px;
+	}
+	.grid-team-item h5{
+		padding:0;
+		margin-bottom:-10px;
+	}
+	.team-title{
+		margin-top: -40px;
+		margin-bottom: 40px;
+	}
+	.grid-section-container{
+		width:95%;
+		margin:auto;
+	}
+	.portfolio-grid-container{
+		width:95%;
+		margin:auto;
+	}
+	#testimonial{
+		height:45vh;
+	}
+	.grid-form-container{
+		width:95%;
+		margin:auto;
+	}
+	.grid-footer-container{
+		width:85%;
+		margin:auto;
+	}
+	.sub-box{
+		position:absolute;
+	}
+	footer{
+		height:50vh;
+	}
+
+}
+@media screen and (max-width:768px) {
+	.hero-txt-box h1{
+		font-size:30px;
+	}
+	.grid-expert-container{
+		grid-template-columns: 1fr 1fr;
+		padding-left:30px;
+	}
+	.grid-team-container{
+		grid-template-columns:1fr 1fr;
+	}
+	.grid-team-item{
+		margin:auto;
+	}
+	.vedio iframe{
+		height:50vh;
+	}
+	#team{
+		height:108vh;
+	}
+	.grid-team-item{
+		height:250px;
+	}
+	.grid-team-item img{
+		width:100px;
+		height:100px;
+	}
+	.grid-team-item h5{
+		padding:0;
+		margin-bottom:-10px;
+	}
+	.team-title{
+		margin-top: -40px;
+		margin-bottom: 40px;
+	}
+	.grid-section-container{
+		width:95%;
+		margin:auto;
+	}
+	.portfolio-grid-container{
+		width:95%;
+		margin:auto;
+	}
+	#testimonial{
+		height:35vh;
+	}
+	.swiper-content{
+		padding:20px 0;
+		margin:auto;
+	}
+	footer{
+		height:80vh;
+	}
+	.grid-form-container{
+		width:95%;
+		margin:auto;
+	}
+	.grid-footer-container{
+		grid-template-columns:1fr;
+		width:85%;
+		margin:auto;
+	}
+	.sub-box{
+		position:absolute;
+	}
+
+}
+
+@media screen and (max-width:580px){
+	.hero-txt-box h1{
+		font-size:30px;
+	}
+	.hero-txt-box{
+		width:100%;
+	}
+	.hero-txt-box p{
+		width:100%;
+	}
+	.grid-about-container{
+		grid-template-columns:1fr 1fr;
+		grid-gap:5px;
+	}
+	.vedio iframe{
+		height:25vh;
+	}
+	.grid-expert-container{
+		grid-template-columns:1fr;
+	}
+	.grid-expert-item{
+		width:75%;
+		margin:auto;
+	}
+	.grid-expert-item p{
+		width:100%;
+		margin:auto;
+	}
+	#team{
+		height:100vh;
+	}
+	.grid-team-container{
+		grid-template-columns:1fr 1fr; 
+	}
+	.grid-team-item{
+		width:120px;
+		height:200px;
+	}
+	.grid-team-item img{
+		width:75px;
+		height:60px;
+	}
+	.grid-team-item h5{
+		font-size:15px;
+		margin-top:10px;
+	}
+	.grid-team-item p{
+		font-size:9px;
+	}
+	.team-title p, .exp-box p{
+		font-size:13px;
+	}
+	.swiper-content h4{
+		font-size:14px;
+		line-height:1.2;
+	}
+	.swiper-content img{
+		width:60px;
+		height:60px;
+	}
+	.swiper-content{
+		width:80%;
+		margin-top:45px;
+	}
+	.grid-form-container{
+		grid-template-columns:1fr;
+	}
+	.client-box{
+		margin-right:14px;
+	}
+	footer{
+		height:80vh;
+	}
+	.grid-footer-container{
+		grid-template-columns:1fr;
+	}
+}
