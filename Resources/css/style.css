@@ -81,7 +81,7 @@ ul li{
                                     /*========HERO SECTION=========*/
 
 #hero{
-    background: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.79)), to(rgba(0, 0, 0, 0.79))), url(img/tajem-background.jpg) no-repeat center/cover;
+    background: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.79)), to(rgba(0, 0, 0, 0.79))), url(img/Tajem-background.jpg) no-repeat center/cover;
     height:100vh;
 }
 nav ul li a p{
